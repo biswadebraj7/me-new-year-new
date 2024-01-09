@@ -56,6 +56,7 @@ body{
 }
 /**main*/
 .main{
+  
     padding: 0px 200px;
     background-color: #FFFFFF;
 }
@@ -149,4 +150,15 @@ body{
     color: black;
 
 
+}
+/**call-content*/
+.call-section{
+    display: block;
+    justify-content: center;
+   
+}
+.call-content img{
+    width: 1140px;
+    height: 300px;
+    margin:   auto;
 }
