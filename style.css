@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+.container{
+    max-width: 1600px;
+    width: 98%;
+    align-items: center;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 800px;
+    background-image: url("images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-content{
+
+    padding-top: 180px;
+    padding-right: 200px;
+    float: right;
+    text-align: right;
+
+
+}
+.nav-content h1{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 80px;
+    color: black;
+}
+.nav-content p{
+    width: 494px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.nav-content button{
+    width: 160px;
+    height: 64px;
+    margin-top: 20px;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+
+}
+/**main*/
+.main{
+    padding: 0px 200px;
+    background-color: #FFFFFF;
+}
+.failure-content{
+    padding: 45px 0px;
+    margin: auto;
+}
+.failure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.failure-left{
+    padding-left:100px ;
+}
+.failure-left h3{
+    width: 288px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: left;
+    padding-bottom: 25px;
+    color: black;
+}
+.failure-left p{
+    width: 416px;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+.failure-left ul{
+    display: block;
+
+}
+.failure-left ul img{
+    margin-left: 10px;
+}
+.failure-left ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px;
+    
+    
+}
